@@ -27,11 +27,14 @@
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/samueleaton/wiz</RepositoryUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageIcon>wiz-icon.png</PackageIcon>
+    <PackageIconUrl>https://raw.githubusercontent.com/samueleaton/wiz/master/assets/wiz-icon.png</PackageIconUrl>
 
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="assets/wiz-icon.png" Pack="true" PackagePath=""/>
     <Compile Include="Library.fs" />
   </ItemGroup>
 
