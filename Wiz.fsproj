@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <AssemblyName>Wiz</AssemblyName>
+
+    <Description>The F# web framework designed for clarity and speed</Description>
+    <Authors>Sam Eaton</Authors>
+    <Company>Sam Eaton</Company>
+
+    <!-- build -->
+    <TargetFramework>net5.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>true</IncludeSymbols>
+
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <!-- nuget -->
+    <PackageId>Wiz</PackageId>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Version>0.0.1</Version>
+    <PackageProjectUrl>https://wiz.run</PackageProjectUrl>
+    <PackageTags>fsharp;functional;asp.net;routing;http;web;wiz;server;</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/samueleaton/wiz</RepositoryUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Library.fs" />
+  </ItemGroup>
+
+</Project>
