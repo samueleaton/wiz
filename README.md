@@ -6,11 +6,11 @@
 
 → [https://wiz.run](https://wiz.run)
 
-<br />
+<br /><br />
 
 ## Install
 
-Via `dotnet` CLI:
+Via the .Net CLI:
 
 ```bash
 dotnet add package Wiz
@@ -26,7 +26,7 @@ module Program
   open Wiz.Route
   open Wiz.Context
 
-  // defines router handlers
+  // define route handlers
   let handleHome ctx =
     ctx
     |> sendText "Show me some magic!"
