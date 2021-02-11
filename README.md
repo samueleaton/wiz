@@ -6,8 +6,6 @@
 
 → [https://wiz.run](https://wiz.run)
 
-<br /><br />
-
 ```fsharp
 open Wiz.Server
 open Wiz.Route
